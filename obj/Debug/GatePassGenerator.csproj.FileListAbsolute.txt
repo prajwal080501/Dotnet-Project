@@ -1,0 +1,16 @@
+C:\Users\Lenovo\source\repos\GatePassGenerator\bin\Debug\GatePassGenerator.exe.config
+C:\Users\Lenovo\source\repos\GatePassGenerator\bin\Debug\GatePassGenerator.exe
+C:\Users\Lenovo\source\repos\GatePassGenerator\bin\Debug\GatePassGenerator.pdb
+C:\Users\Lenovo\source\repos\GatePassGenerator\obj\Debug\GatePassGenerator.csproj.AssemblyReference.cache
+C:\Users\Lenovo\source\repos\GatePassGenerator\obj\Debug\GatePassGenerator.csproj.SuggestedBindingRedirects.cache
+C:\Users\Lenovo\source\repos\GatePassGenerator\obj\Debug\GatePassGenerator.Properties.Resources.resources
+C:\Users\Lenovo\source\repos\GatePassGenerator\obj\Debug\GatePassGenerator.csproj.GenerateResource.cache
+C:\Users\Lenovo\source\repos\GatePassGenerator\obj\Debug\GatePassGenerator.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\source\repos\GatePassGenerator\obj\Debug\GatePassGenerator.exe
+C:\Users\Lenovo\source\repos\GatePassGenerator\obj\Debug\GatePassGenerator.pdb
+C:\Users\Lenovo\source\repos\GatePassGenerator\obj\Debug\GatePassGenerator.Form1.resources
+C:\Users\Lenovo\source\repos\GatePassGenerator\obj\Debug\GatePassGenerator.Dashboard.resources
+C:\Users\Lenovo\source\repos\GatePassGenerator\obj\Debug\GatePassGenerator.AddEmployee.resources
+C:\Users\Lenovo\source\repos\GatePassGenerator\obj\Debug\GatePassGenerator.ViewEmployee.resources
+C:\Users\Lenovo\source\repos\GatePassGenerator\obj\Debug\GatePassGenerator.UpdateEmployee.resources
+C:\Users\Lenovo\source\repos\GatePassGenerator\obj\Debug\GatePassGenerator.DeleteEmployee.resources
