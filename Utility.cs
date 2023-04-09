@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Diagnostics;
+using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -31,6 +32,20 @@ namespace GatePassGenerator
         public static object getImageStorePath(String imageName)
         {
             return Application.StartupPath.Substring(0, (Application.StartupPath.Length - 10)) +"\\images\\" + imageName + ".jpg";
+        }
+
+        public static void setImageInPictureBox(PictureBox pictureBoxProfile, String visitorId)
+        {
+            String path = (string)getImageStorePath(visitorId); 
+            if(pictureBoxProfile != null)
+            {
+                pictureBoxProfile.Image.Dispose();
+                pictureBoxProfile.Image = null;
+
+            }
+            pictureBoxProfile.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBoxProfile.Image = Image.FromFile(path);
+
         }
     }
 }

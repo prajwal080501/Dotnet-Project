@@ -119,5 +119,32 @@ namespace GatePassGenerator
                 deleteEmployee.Show();
             }
         }
+
+        private void addVisitiorToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if(Application.OpenForms.OfType<AddVisitor>().Count() == 1)
+            {
+                Application.OpenForms.OfType<AddVisitor>().First().BringToFront();
+            }
+            else
+            {
+                AddVisitor addVisitor = new AddVisitor();
+                addVisitor.Show();
+            }
+        }
+
+        private void updateVisitorToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if(Application.OpenForms.OfType<UpdateVisitor>().Count() == 1)
+            {
+                Application.OpenForms.OfType<UpdateVisitor>().First().BringToFront();
+
+            }
+            else
+            {
+                UpdateVisitor updateVisitor = new UpdateVisitor();
+                updateVisitor.Show();
+            }
+        }
     }
 }
