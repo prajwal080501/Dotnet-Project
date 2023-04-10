@@ -149,6 +149,7 @@
             this.viewVisitorToolStripMenuItem.Name = "viewVisitorToolStripMenuItem";
             this.viewVisitorToolStripMenuItem.Size = new System.Drawing.Size(264, 66);
             this.viewVisitorToolStripMenuItem.Text = "View Visitor";
+            this.viewVisitorToolStripMenuItem.Click += new System.EventHandler(this.viewVisitorToolStripMenuItem_Click);
             // 
             // updateVisitorToolStripMenuItem
             // 
@@ -220,7 +221,7 @@
             this.Controls.Add(this.menuStrip1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MainMenuStrip = this.menuStrip1;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Dashboard";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Dashboard";

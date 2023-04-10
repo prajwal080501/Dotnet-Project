@@ -146,5 +146,18 @@ namespace GatePassGenerator
                 updateVisitor.Show();
             }
         }
+
+        private void viewVisitorToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if(Application.OpenForms.OfType<ViewVisitors>().Count() == 1)
+            {
+                Application.OpenForms.OfType<ViewVisitors>().First().BringToFront();
+            }
+            else
+            {
+                ViewVisitors viewVisitors = new ViewVisitors();
+                viewVisitors.Show();
+            }
+        }
     }
 }
