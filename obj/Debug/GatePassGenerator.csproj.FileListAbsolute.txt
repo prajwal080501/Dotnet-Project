@@ -91,3 +91,24 @@ C:\Users\BAPS\source\repos\DOTNET Arpit\obj\Debug\GatePassGenerator.csproj.Gener
 C:\Users\BAPS\source\repos\DOTNET Arpit\obj\Debug\GatePassGenerator.csproj.CoreCompileInputs.cache
 C:\Users\BAPS\source\repos\DOTNET Arpit\obj\Debug\GatePassGenerator.exe
 C:\Users\BAPS\source\repos\DOTNET Arpit\obj\Debug\GatePassGenerator.pdb
+C:\Users\praju\Source\Repos\dotnet-project\bin\Debug\GatePassGenerator.exe.config
+C:\Users\praju\Source\Repos\dotnet-project\bin\Debug\GatePassGenerator.exe
+C:\Users\praju\Source\Repos\dotnet-project\bin\Debug\GatePassGenerator.pdb
+C:\Users\praju\Source\Repos\dotnet-project\obj\Debug\GatePassGenerator.csproj.AssemblyReference.cache
+C:\Users\praju\Source\Repos\dotnet-project\obj\Debug\GatePassGenerator.csproj.SuggestedBindingRedirects.cache
+C:\Users\praju\Source\Repos\dotnet-project\obj\Debug\GatePassGenerator.AddEmployee.resources
+C:\Users\praju\Source\Repos\dotnet-project\obj\Debug\GatePassGenerator.AddVisitor.resources
+C:\Users\praju\Source\Repos\dotnet-project\obj\Debug\GatePassGenerator.Dashboard.resources
+C:\Users\praju\Source\Repos\dotnet-project\obj\Debug\GatePassGenerator.DeleteEmployee.resources
+C:\Users\praju\Source\Repos\dotnet-project\obj\Debug\GatePassGenerator.Form1.resources
+C:\Users\praju\Source\Repos\dotnet-project\obj\Debug\GatePassGenerator.GeneratePass.resources
+C:\Users\praju\Source\Repos\dotnet-project\obj\Debug\GatePassGenerator.Properties.Resources.resources
+C:\Users\praju\Source\Repos\dotnet-project\obj\Debug\GatePassGenerator.UpdateEmployee.resources
+C:\Users\praju\Source\Repos\dotnet-project\obj\Debug\GatePassGenerator.UpdateVisitor.resources
+C:\Users\praju\Source\Repos\dotnet-project\obj\Debug\GatePassGenerator.ViewEmployee.resources
+C:\Users\praju\Source\Repos\dotnet-project\obj\Debug\GatePassGenerator.ViewVisitors.resources
+C:\Users\praju\Source\Repos\dotnet-project\obj\Debug\GatePassGenerator.csproj.GenerateResource.cache
+C:\Users\praju\Source\Repos\dotnet-project\obj\Debug\GatePassGenerator.csproj.CoreCompileInputs.cache
+C:\Users\praju\Source\Repos\dotnet-project\obj\Debug\GatePassGenerator.exe
+C:\Users\praju\Source\Repos\dotnet-project\obj\Debug\GatePassGenerator.pdb
+C:\Users\praju\source\repos\dotnet-project\obj\Debug\GatePassGenerator.Pass.resources

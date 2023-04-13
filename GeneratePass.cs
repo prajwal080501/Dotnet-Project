@@ -157,6 +157,11 @@ namespace GatePassGenerator
 
         private void dateTimePickerValidFrom_ValueChanged(Object sender, EventArgs e)
         {
+            
+        }
+
+        private void dateTimePickerValidFrom_ValueChanged_1(object sender, EventArgs e)
+        {
             if (IsDateBeforeOrToday(dateTimePickerValidFrom.Text))
             {
                 labelValidFrom.Text = dateTimePickerValidFrom.Text;
@@ -164,6 +169,65 @@ namespace GatePassGenerator
             else
             {
                 MessageBox.Show("Select todays date or date after today", "Information", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            }
+        }
+        Int64 days;
+        private void dateTimePickerValidTo_ValueChanged(object sender, EventArgs e)
+        {
+            if (!String.IsNullOrEmpty(labelValidFrom.Text))
+            {
+                if (IsDateAfterValidFrom(dateTimePickerValidTo.Text, labelValidFrom.Text))
+                {
+                    labelValidTo.Text = dateTimePickerValidTo.Text;
+                    DateTime StartDate = DateTime.ParseExact(labelValidFrom.Text, "dd.MM.yyyy", CultureInfo.InvariantCulture);
+                    DateTime EndDate = DateTime.ParseExact(labelValidTo.Text, "dd.MM.yyyy", CultureInfo.InvariantCulture);
+                    days = (EndDate.Date - StartDate.Date).Days;
+                    setPassColor(days);
+                }
+                else
+                {
+                    MessageBox.Show("Select date valid from date", "Information", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                }
+            }
+            else
+            {
+                MessageBox.Show("Select valid form date first", "Information", MessageBoxButtons.OK,MessageBoxIcon.Exclamation);
+            }
+        }
+
+        private void reset()
+        {
+            labelPassId.ResetText();
+            labelName.ResetText();
+            labelGender.ResetText();
+            labelValidFrom.ResetText();
+            labelValidTo.ResetText();
+            if(pictureBox4.Image != null)
+            {
+                pictureBox4.Image.Dispose();
+                pictureBox4.Image = null;
+            }
+        }
+
+        private void btnSave_Click(object sender, EventArgs e)
+        {
+           
+            String passId = labelPassId.Text;
+            String name = labelName.Text;
+            String contact = labelContact.Text;
+            String gender = labelGender.Text;
+            String validFrom = labelValidFrom.Text;
+            String validTo = labelValidTo.Text;
+
+            if(!String.IsNullOrEmpty(passId) && !String.IsNullOrEmpty(name) && !String.IsNullOrEmpty(contact) && !String.IsNullOrEmpty(gender) && !String.IsNullOrEmpty(validFrom) && !String.IsNullOrEmpty(validTo) )
+            {
+                Pass p = new Pass(path, passId, name, contact, gender, validFrom, validTo, visitorPk, days);
+                p.Show();
+                reset();
+            }
+            else
+            {
+                MessageBox.Show("Invalid Pass data complete selection to generate pass", "Information", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             }
         }
     }
