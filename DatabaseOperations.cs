@@ -14,7 +14,7 @@ namespace GatePassGenerator
         protected  SqlConnection getConnection()
         {
             SqlConnection con = new SqlConnection();
-            con.ConnectionString = "data source=PRAJWALS-PC\\SQLEXPRESS;database=GatePass;integrated security=True";
+            con.ConnectionString = "data source=LAPTOP-9H3G0B77\\SQLEXPRESS;database=gatePass;integrated security=True";
             return con;
         }
         //method to return data according to query

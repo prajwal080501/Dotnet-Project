@@ -159,5 +159,19 @@ namespace GatePassGenerator
                 viewVisitors.Show();
             }
         }
+
+        private void generatePassToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (Application.OpenForms.OfType<GeneratePass>().Count() == 1)
+            {
+                Application.OpenForms.OfType<GeneratePass>().First().BringToFront();
+            }
+            else 
+            {
+                GeneratePass generatePass = new GeneratePass();
+                generatePass.Show();
+            }
+       
+        }
     }
 }
