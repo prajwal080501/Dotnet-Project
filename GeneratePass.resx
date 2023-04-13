@@ -127,7 +127,7 @@
         ZtlwCTRKBQ7BPq9FCPX5I5DZNtETqamPK3fBjElTtfYv/YKM+QJp/jFOXQIpRwAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="btnGenerate.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btnSave.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABGdBTUEAALGPC/xhBQAAAe1JREFUSEvt
         ls0uJGEUhnslMmvJGHphIoxMxFVITLByAyw1Swu3YDc7grgGC4xbEDvJxMwsED8zhIXfjP+05/3qtLTy

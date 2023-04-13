@@ -71,3 +71,23 @@ E:\Modern\Dotnet\obj\Debug\GatePassGenerator.csproj.CoreCompileInputs.cache
 E:\Modern\Dotnet\obj\Debug\GatePassGenerator.exe
 E:\Modern\Dotnet\obj\Debug\GatePassGenerator.pdb
 E:\Modern\Dotnet\obj\Debug\GatePassGenerator.GeneratePass.resources
+C:\Users\BAPS\source\repos\DOTNET Arpit\bin\Debug\GatePassGenerator.exe.config
+C:\Users\BAPS\source\repos\DOTNET Arpit\bin\Debug\GatePassGenerator.exe
+C:\Users\BAPS\source\repos\DOTNET Arpit\bin\Debug\GatePassGenerator.pdb
+C:\Users\BAPS\source\repos\DOTNET Arpit\obj\Debug\GatePassGenerator.csproj.AssemblyReference.cache
+C:\Users\BAPS\source\repos\DOTNET Arpit\obj\Debug\GatePassGenerator.csproj.SuggestedBindingRedirects.cache
+C:\Users\BAPS\source\repos\DOTNET Arpit\obj\Debug\GatePassGenerator.AddEmployee.resources
+C:\Users\BAPS\source\repos\DOTNET Arpit\obj\Debug\GatePassGenerator.AddVisitor.resources
+C:\Users\BAPS\source\repos\DOTNET Arpit\obj\Debug\GatePassGenerator.Dashboard.resources
+C:\Users\BAPS\source\repos\DOTNET Arpit\obj\Debug\GatePassGenerator.DeleteEmployee.resources
+C:\Users\BAPS\source\repos\DOTNET Arpit\obj\Debug\GatePassGenerator.Form1.resources
+C:\Users\BAPS\source\repos\DOTNET Arpit\obj\Debug\GatePassGenerator.GeneratePass.resources
+C:\Users\BAPS\source\repos\DOTNET Arpit\obj\Debug\GatePassGenerator.Properties.Resources.resources
+C:\Users\BAPS\source\repos\DOTNET Arpit\obj\Debug\GatePassGenerator.UpdateEmployee.resources
+C:\Users\BAPS\source\repos\DOTNET Arpit\obj\Debug\GatePassGenerator.UpdateVisitor.resources
+C:\Users\BAPS\source\repos\DOTNET Arpit\obj\Debug\GatePassGenerator.ViewEmployee.resources
+C:\Users\BAPS\source\repos\DOTNET Arpit\obj\Debug\GatePassGenerator.ViewVisitors.resources
+C:\Users\BAPS\source\repos\DOTNET Arpit\obj\Debug\GatePassGenerator.csproj.GenerateResource.cache
+C:\Users\BAPS\source\repos\DOTNET Arpit\obj\Debug\GatePassGenerator.csproj.CoreCompileInputs.cache
+C:\Users\BAPS\source\repos\DOTNET Arpit\obj\Debug\GatePassGenerator.exe
+C:\Users\BAPS\source\repos\DOTNET Arpit\obj\Debug\GatePassGenerator.pdb
