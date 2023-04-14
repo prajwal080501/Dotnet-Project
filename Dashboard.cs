@@ -173,5 +173,18 @@ namespace GatePassGenerator
             }
        
         }
+
+        private void validatePassToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if(Application.OpenForms.OfType<ValidatePass>().Count() == 1)
+            {
+                Application.OpenForms.OfType<ValidatePass>().First().BringToFront();
+            }
+            else
+            {
+                ValidatePass validatePass = new ValidatePass();
+                validatePass.Show();
+            }
+        }
     }
 }

@@ -49,7 +49,6 @@
             // 
             // menuStrip1
             // 
-            this.menuStrip1.GripMargin = new System.Windows.Forms.Padding(2, 2, 0, 2);
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.employeeToolStripMenuItem,
@@ -61,8 +60,8 @@
             this.btnExit});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Padding = new System.Windows.Forms.Padding(7, 2, 0, 2);
-            this.menuStrip1.Size = new System.Drawing.Size(1946, 68);
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(6, 2, 0, 2);
+            this.menuStrip1.Size = new System.Drawing.Size(1726, 68);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -78,7 +77,7 @@
             this.employeeToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("employeeToolStripMenuItem.Image")));
             this.employeeToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.employeeToolStripMenuItem.Name = "employeeToolStripMenuItem";
-            this.employeeToolStripMenuItem.Size = new System.Drawing.Size(187, 64);
+            this.employeeToolStripMenuItem.Size = new System.Drawing.Size(166, 64);
             this.employeeToolStripMenuItem.Text = "Employee";
             // 
             // addEmployeeToolStripMenuItem
@@ -87,7 +86,7 @@
             this.addEmployeeToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("addEmployeeToolStripMenuItem.Image")));
             this.addEmployeeToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.addEmployeeToolStripMenuItem.Name = "addEmployeeToolStripMenuItem";
-            this.addEmployeeToolStripMenuItem.Size = new System.Drawing.Size(335, 70);
+            this.addEmployeeToolStripMenuItem.Size = new System.Drawing.Size(288, 66);
             this.addEmployeeToolStripMenuItem.Text = "Add Employee";
             this.addEmployeeToolStripMenuItem.Click += new System.EventHandler(this.addEmployeeToolStripMenuItem_Click);
             // 
@@ -97,7 +96,7 @@
             this.updateEmployeeToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("updateEmployeeToolStripMenuItem.Image")));
             this.updateEmployeeToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.updateEmployeeToolStripMenuItem.Name = "updateEmployeeToolStripMenuItem";
-            this.updateEmployeeToolStripMenuItem.Size = new System.Drawing.Size(335, 70);
+            this.updateEmployeeToolStripMenuItem.Size = new System.Drawing.Size(288, 66);
             this.updateEmployeeToolStripMenuItem.Text = "Update Employee";
             this.updateEmployeeToolStripMenuItem.Click += new System.EventHandler(this.updateEmployeeToolStripMenuItem_Click);
             // 
@@ -107,7 +106,7 @@
             this.viewAllEmployeeToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("viewAllEmployeeToolStripMenuItem.Image")));
             this.viewAllEmployeeToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.viewAllEmployeeToolStripMenuItem.Name = "viewAllEmployeeToolStripMenuItem";
-            this.viewAllEmployeeToolStripMenuItem.Size = new System.Drawing.Size(335, 70);
+            this.viewAllEmployeeToolStripMenuItem.Size = new System.Drawing.Size(288, 66);
             this.viewAllEmployeeToolStripMenuItem.Text = "View All Employee";
             this.viewAllEmployeeToolStripMenuItem.Click += new System.EventHandler(this.viewAllEmployeeToolStripMenuItem_Click);
             // 
@@ -117,7 +116,7 @@
             this.deleteEmployeeToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("deleteEmployeeToolStripMenuItem.Image")));
             this.deleteEmployeeToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.deleteEmployeeToolStripMenuItem.Name = "deleteEmployeeToolStripMenuItem";
-            this.deleteEmployeeToolStripMenuItem.Size = new System.Drawing.Size(335, 70);
+            this.deleteEmployeeToolStripMenuItem.Size = new System.Drawing.Size(288, 66);
             this.deleteEmployeeToolStripMenuItem.Text = "Delete Employee";
             this.deleteEmployeeToolStripMenuItem.Click += new System.EventHandler(this.deleteEmployeeToolStripMenuItem_Click);
             // 
@@ -132,7 +131,7 @@
             this.visitorToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("visitorToolStripMenuItem.Image")));
             this.visitorToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.visitorToolStripMenuItem.Name = "visitorToolStripMenuItem";
-            this.visitorToolStripMenuItem.Size = new System.Drawing.Size(153, 64);
+            this.visitorToolStripMenuItem.Size = new System.Drawing.Size(138, 64);
             this.visitorToolStripMenuItem.Text = "Visitor";
             // 
             // addVisitiorToolStripMenuItem
@@ -140,7 +139,7 @@
             this.addVisitiorToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("addVisitiorToolStripMenuItem.Image")));
             this.addVisitiorToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.addVisitiorToolStripMenuItem.Name = "addVisitiorToolStripMenuItem";
-            this.addVisitiorToolStripMenuItem.Size = new System.Drawing.Size(294, 70);
+            this.addVisitiorToolStripMenuItem.Size = new System.Drawing.Size(255, 66);
             this.addVisitiorToolStripMenuItem.Text = "Add Visitior";
             this.addVisitiorToolStripMenuItem.Click += new System.EventHandler(this.addVisitiorToolStripMenuItem_Click);
             // 
@@ -149,7 +148,7 @@
             this.viewVisitorToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("viewVisitorToolStripMenuItem.Image")));
             this.viewVisitorToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.viewVisitorToolStripMenuItem.Name = "viewVisitorToolStripMenuItem";
-            this.viewVisitorToolStripMenuItem.Size = new System.Drawing.Size(294, 70);
+            this.viewVisitorToolStripMenuItem.Size = new System.Drawing.Size(255, 66);
             this.viewVisitorToolStripMenuItem.Text = "View Visitor";
             this.viewVisitorToolStripMenuItem.Click += new System.EventHandler(this.viewVisitorToolStripMenuItem_Click);
             // 
@@ -158,7 +157,7 @@
             this.updateVisitorToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("updateVisitorToolStripMenuItem.Image")));
             this.updateVisitorToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.updateVisitorToolStripMenuItem.Name = "updateVisitorToolStripMenuItem";
-            this.updateVisitorToolStripMenuItem.Size = new System.Drawing.Size(294, 70);
+            this.updateVisitorToolStripMenuItem.Size = new System.Drawing.Size(255, 66);
             this.updateVisitorToolStripMenuItem.Text = "Update Visitor";
             this.updateVisitorToolStripMenuItem.Click += new System.EventHandler(this.updateVisitorToolStripMenuItem_Click);
             // 
@@ -169,7 +168,7 @@
             this.generatePassToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("generatePassToolStripMenuItem.Image")));
             this.generatePassToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.generatePassToolStripMenuItem.Name = "generatePassToolStripMenuItem";
-            this.generatePassToolStripMenuItem.Size = new System.Drawing.Size(227, 64);
+            this.generatePassToolStripMenuItem.Size = new System.Drawing.Size(203, 64);
             this.generatePassToolStripMenuItem.Text = "Generate Pass";
             this.generatePassToolStripMenuItem.Click += new System.EventHandler(this.generatePassToolStripMenuItem_Click);
             // 
@@ -180,8 +179,9 @@
             this.validatePassToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("validatePassToolStripMenuItem.Image")));
             this.validatePassToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.validatePassToolStripMenuItem.Name = "validatePassToolStripMenuItem";
-            this.validatePassToolStripMenuItem.Size = new System.Drawing.Size(217, 64);
+            this.validatePassToolStripMenuItem.Size = new System.Drawing.Size(193, 64);
             this.validatePassToolStripMenuItem.Text = "Validate Pass";
+            this.validatePassToolStripMenuItem.Click += new System.EventHandler(this.validatePassToolStripMenuItem_Click);
             // 
             // filterPassToolStripMenuItem
             // 
@@ -190,7 +190,7 @@
             this.filterPassToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("filterPassToolStripMenuItem.Image")));
             this.filterPassToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.filterPassToolStripMenuItem.Name = "filterPassToolStripMenuItem";
-            this.filterPassToolStripMenuItem.Size = new System.Drawing.Size(186, 64);
+            this.filterPassToolStripMenuItem.Size = new System.Drawing.Size(168, 64);
             this.filterPassToolStripMenuItem.Text = "Filter Pass";
             // 
             // btnlogout
@@ -200,7 +200,7 @@
             this.btnlogout.Image = ((System.Drawing.Image)(resources.GetObject("btnlogout.Image")));
             this.btnlogout.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.btnlogout.Name = "btnlogout";
-            this.btnlogout.Size = new System.Drawing.Size(157, 64);
+            this.btnlogout.Size = new System.Drawing.Size(141, 64);
             this.btnlogout.Text = "Logout";
             this.btnlogout.Click += new System.EventHandler(this.btnlogout_Click);
             // 
@@ -211,20 +211,20 @@
             this.btnExit.Image = ((System.Drawing.Image)(resources.GetObject("btnExit.Image")));
             this.btnExit.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.btnExit.Name = "btnExit";
-            this.btnExit.Size = new System.Drawing.Size(125, 64);
+            this.btnExit.Size = new System.Drawing.Size(115, 64);
             this.btnExit.Text = "Exit";
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
             // Dashboard
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1946, 1091);
+            this.ClientSize = new System.Drawing.Size(1726, 873);
             this.Controls.Add(this.menuStrip1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MainMenuStrip = this.menuStrip1;
-            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Dashboard";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Dashboard";

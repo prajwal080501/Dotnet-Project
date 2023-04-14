@@ -146,6 +146,7 @@
             this.label3.TabIndex = 87;
             this.label3.Text = "ValidFrom";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // label4
             // 
@@ -158,6 +159,7 @@
             this.label4.TabIndex = 88;
             this.label4.Text = "ValidTo";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // dateTimePickerValidFrom
             // 
@@ -225,6 +227,7 @@
             this.pictureBox4.Size = new System.Drawing.Size(140, 107);
             this.pictureBox4.TabIndex = 117;
             this.pictureBox4.TabStop = false;
+            this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
             // 
             // labelValidTo
             // 
@@ -236,6 +239,7 @@
             this.labelValidTo.Size = new System.Drawing.Size(0, 24);
             this.labelValidTo.TabIndex = 116;
             this.labelValidTo.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.labelValidTo.Click += new System.EventHandler(this.labelValidTo_Click);
             // 
             // labelValidFrom
             // 
@@ -247,6 +251,7 @@
             this.labelValidFrom.Size = new System.Drawing.Size(0, 24);
             this.labelValidFrom.TabIndex = 115;
             this.labelValidFrom.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.labelValidFrom.Click += new System.EventHandler(this.labelValidFrom_Click);
             // 
             // labelGender
             // 
@@ -258,6 +263,7 @@
             this.labelGender.Size = new System.Drawing.Size(0, 24);
             this.labelGender.TabIndex = 114;
             this.labelGender.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.labelGender.Click += new System.EventHandler(this.labelGender_Click);
             // 
             // labelContact
             // 
@@ -269,6 +275,7 @@
             this.labelContact.Size = new System.Drawing.Size(0, 24);
             this.labelContact.TabIndex = 113;
             this.labelContact.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.labelContact.Click += new System.EventHandler(this.labelContact_Click);
             // 
             // labelName
             // 
@@ -280,6 +287,7 @@
             this.labelName.Size = new System.Drawing.Size(0, 24);
             this.labelName.TabIndex = 112;
             this.labelName.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.labelName.Click += new System.EventHandler(this.labelName_Click);
             // 
             // labelPassId
             // 
@@ -291,6 +299,7 @@
             this.labelPassId.Size = new System.Drawing.Size(0, 24);
             this.labelPassId.TabIndex = 111;
             this.labelPassId.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.labelPassId.Click += new System.EventHandler(this.labelPassId_Click);
             // 
             // label20
             // 
@@ -303,6 +312,7 @@
             this.label20.TabIndex = 110;
             this.label20.Text = ":";
             this.label20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label20.Click += new System.EventHandler(this.label20_Click);
             // 
             // label19
             // 
@@ -315,6 +325,7 @@
             this.label19.TabIndex = 109;
             this.label19.Text = ":";
             this.label19.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label19.Click += new System.EventHandler(this.label19_Click);
             // 
             // label18
             // 
@@ -327,6 +338,7 @@
             this.label18.TabIndex = 108;
             this.label18.Text = ":";
             this.label18.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label18.Click += new System.EventHandler(this.label18_Click);
             // 
             // label17
             // 
@@ -339,6 +351,7 @@
             this.label17.TabIndex = 107;
             this.label17.Text = ":";
             this.label17.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label17.Click += new System.EventHandler(this.label17_Click);
             // 
             // label16
             // 
@@ -351,6 +364,7 @@
             this.label16.TabIndex = 106;
             this.label16.Text = ":";
             this.label16.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label16.Click += new System.EventHandler(this.label16_Click);
             // 
             // label15
             // 
@@ -363,6 +377,7 @@
             this.label15.TabIndex = 105;
             this.label15.Text = ":";
             this.label15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label15.Click += new System.EventHandler(this.label15_Click);
             // 
             // label14
             // 
@@ -375,6 +390,7 @@
             this.label14.TabIndex = 104;
             this.label14.Text = "Valid to";
             this.label14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label14.Click += new System.EventHandler(this.label14_Click);
             // 
             // label13
             // 
@@ -387,6 +403,7 @@
             this.label13.TabIndex = 103;
             this.label13.Text = "Valid from";
             this.label13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label13.Click += new System.EventHandler(this.label13_Click);
             // 
             // label12
             // 
@@ -399,6 +416,7 @@
             this.label12.TabIndex = 102;
             this.label12.Text = "Gender";
             this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label12.Click += new System.EventHandler(this.label12_Click);
             // 
             // label11
             // 
@@ -411,6 +429,7 @@
             this.label11.TabIndex = 101;
             this.label11.Text = "Contact";
             this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label11.Click += new System.EventHandler(this.label11_Click);
             // 
             // label10
             // 
@@ -423,6 +442,7 @@
             this.label10.TabIndex = 100;
             this.label10.Text = "Name";
             this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label10.Click += new System.EventHandler(this.label10_Click);
             // 
             // label9
             // 
@@ -448,6 +468,7 @@
             this.label8.TabIndex = 99;
             this.label8.Text = "MSc Days Gate Pass";
             this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label8.Click += new System.EventHandler(this.label8_Click);
             // 
             // pictureBox1
             // 
@@ -458,6 +479,7 @@
             this.pictureBox1.Size = new System.Drawing.Size(48, 41);
             this.pictureBox1.TabIndex = 93;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // pictureBox2
             // 
@@ -468,6 +490,7 @@
             this.pictureBox2.Size = new System.Drawing.Size(48, 41);
             this.pictureBox2.TabIndex = 94;
             this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // pictureBox3
             // 
@@ -478,6 +501,7 @@
             this.pictureBox3.Size = new System.Drawing.Size(48, 41);
             this.pictureBox3.TabIndex = 95;
             this.pictureBox3.TabStop = false;
+            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
             // 
             // label5
             // 
@@ -491,6 +515,7 @@
             this.label5.TabIndex = 96;
             this.label5.Text = "1 Day Pass";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // label6
             // 
@@ -504,6 +529,7 @@
             this.label6.TabIndex = 97;
             this.label6.Text = "2-7 Day Pass";
             this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // label7
             // 
@@ -517,6 +543,7 @@
             this.label7.TabIndex = 98;
             this.label7.Text = "More Than \r\n1 Week Pass";
             this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label7.Click += new System.EventHandler(this.label7_Click);
             // 
             // btnSave
             // 

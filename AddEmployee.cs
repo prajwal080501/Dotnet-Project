@@ -13,7 +13,7 @@ namespace GatePassGenerator
     public partial class AddEmployee : Form
     {
         DatabaseOperations databaseOperations = new DatabaseOperations();
-        String query;
+        String query, query2, query3;
         DataSet ds;
             
         public AddEmployee()
@@ -65,13 +65,12 @@ namespace GatePassGenerator
                         query= "insert into appUser(username,upass,urole) values ('"+username+"','"+password+"','EMPLOYEE')";
                         databaseOperations.setData(query, null);
 
-                        query = "select * from appUser where username='"+username+"' and upass= '"+password+"' and uenabled=1";
-                        ds = databaseOperations.getData(query);
+                        query2 = "select * from appUser where username='"+username+"' and upass= '"+password+"' and uenabled=1";
+                        ds = databaseOperations.getData(query2);
 
-                        query = "insert into employee(ename,hiredate,contact,gender,eaddress,city,estate,appuser_fk) values ('" + name + "','" + hireDate + "'," + contactInt + ",'" + gender + "','" + address + "','" + city + "','" + state + "'," + ds.Tables[0].Rows[0][0] + ")";
-                        databaseOperations.setData(query,"Employee Added Successfully");
+                        query3 = "insert into employee(ename,hiredate,contact,gender,eaddress,city,estate,appuser_fk) values ('" + name + "','" + hireDate + "'," + contactInt + ",'" + gender + "','" + address + "','" + city + "','" + state + "'," + ds.Tables[0].Rows[0][0] + ")";
+                        databaseOperations.setData(query3,"Employee Added Successfully");
 
-                        clearAllFields();
 
 
                     }

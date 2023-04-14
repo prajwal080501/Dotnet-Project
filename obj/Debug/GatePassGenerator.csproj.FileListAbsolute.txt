@@ -112,3 +112,4 @@ C:\Users\praju\Source\Repos\dotnet-project\obj\Debug\GatePassGenerator.csproj.Co
 C:\Users\praju\Source\Repos\dotnet-project\obj\Debug\GatePassGenerator.exe
 C:\Users\praju\Source\Repos\dotnet-project\obj\Debug\GatePassGenerator.pdb
 C:\Users\praju\source\repos\dotnet-project\obj\Debug\GatePassGenerator.Pass.resources
+C:\Users\praju\source\repos\dotnet-project\obj\Debug\GatePassGenerator.ValidatePass.resources

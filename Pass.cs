@@ -21,7 +21,6 @@ namespace GatePassGenerator
             InitializeComponent();
         }
 
-        String path, passId, name, contact, gender, validFrom, validTo, visitorPk, days;
 
         Bitmap bmp;
         private void Print()
@@ -34,6 +33,7 @@ namespace GatePassGenerator
             Rectangle r = e.PageBounds;
             e.Graphics.DrawImage(bmp, r);
         }
+        String path, passId, name, contact, gender, validFrom, validTo, visitorPk, days;
 
         public Pass(String path, String passId, String name, String cotact, String gender, String validFrom, String validTo, Int64 visitorPk, Int64 days) { 
             InitializeComponent();
@@ -87,7 +87,7 @@ namespace GatePassGenerator
             {
                 DateTime validFromDate = DateTime.ParseExact(validFrom, "dd.MM.yyyy", CultureInfo.InvariantCulture);
                 DateTime validToDate = DateTime.ParseExact(validTo, "dd.MM.yyyy", CultureInfo.InvariantCulture);
-                query = "insert into pass (passId, validFrom, validTo, visitors_fk) values ('" + passId + "', '" + validFromDate.ToString("yyyy-MM-dd") + "', '" + validToDate.ToString("yyyy-MM-dd") + "', " + visitorPk + ")";
+                query = "insert into pass (passId, validFrom, validTo, visitors_fk) values ('" + passId + "', '" + validFromDate.ToString("yyyy-MM-dd") + "', '" + validToDate.ToString("yyyy-MM-dd") + "', " + visitorsPk + ")";
                 databaseOperations.setData(query, null);
             }
             catch (Exception ex)
